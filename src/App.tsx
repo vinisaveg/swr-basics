@@ -1,10 +1,14 @@
 import "./app.css";
-import Rockets from "./components/Rockets";
+
+// import Rockets from "./components/Rockets";
+import Users from "./components/Users";
 
 const App = () => {
   return (
     <div className="App">
-      <Rockets />
+      {/* <Rockets /> */}
+
+      <Users />
     </div>
   );
 };
