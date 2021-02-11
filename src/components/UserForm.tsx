@@ -40,7 +40,10 @@ const UserForm: FunctionComponent = () => {
 
   const { mutate } = useSWR<CreateUserResponse>(
     isSubmitting ? createUserMutation : null,
-    fetcher
+    fetcher,
+    {
+      revalidateOnFocus: false,
+    }
   );
 
   const handleCreateuser = async (event: FormEvent<HTMLFormElement>) => {
@@ -53,8 +56,6 @@ const UserForm: FunctionComponent = () => {
     if (response) {
       console.log(response.insert_users);
     }
-
-    setIsSubmitting(false);
   };
 
   return (
