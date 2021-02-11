@@ -36,6 +36,6 @@ App Running on http://localhost:3000/
 
 ### My post
 
-https://dev.to/vinisaveg/
+https://dev.to/vinisaveg/consumindo-uma-api-graphql-com-swr-4ejo
 
 Happy Coding! :grin:
