@@ -1,7 +1,7 @@
 import "./app.css";
-import UserForm from "./components/UserForm";
 
-// import Rockets from "./components/Rockets";
+import UserForm from "./components/UserForm";
+import Rockets from "./components/Rockets";
 import Users from "./components/Users";
 
 const App = () => {
